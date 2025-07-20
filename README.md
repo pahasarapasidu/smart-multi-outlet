@@ -2,16 +2,20 @@
 
 ## Overview
 
-This project implements a **Smart Multi-Outlet** power strip, enabling multiple electrical devices to be individually monitored and controlled for safety, automation, and energy efficiency. The primary focus is on reliable **circuit design, assembly, and practical testing** to ensure robust operation in real-world conditions.
+Smart Multi-Outlet is a hardware and software integrated project designed to allow users to control and monitor multiple AC power outlets remotely. It provides real-time feedback on current consumption, protects against overload, and supports automation through microcontroller-based control.
+
+This project aims to improve energy efficiency, safety, and convenience in both household and industrial environments.This project implements a **Smart Multi-Outlet** power strip, enabling multiple electrical devices to be individually monitored and controlled for safety, automation, and energy efficiency. The primary focus is on reliable **circuit design, assembly, and practical testing** to ensure robust operation in real-world conditions.
 
 ## Features
 
 - **Individual outlet control** for each socket  
-- Manual and remote switching capability
+- Manual and remote switching capability (via App)
+- Real-time current monitoring per outlet
 - Overcurrent and overload protection
 - Indicator LEDs for operational status
 - Tested relay-driven switching for AC loads
 - Modular, easily serviceable PCB design
+
 
 ## Project Highlights
 
@@ -34,11 +38,12 @@ This project implements a **Smart Multi-Outlet** power strip, enabling multiple 
 - [PCB & Assembly](#pcb--assembly)
 - [Testing](#testing)
 - [Usage](#usage)
-- [Future Improvements](#future-improvements)
+
 
 ---
 
 ## System Diagram
+
 <div align="center">
   <img src="images/blockdiagram.png" alt="Top view of the custom controller board" width="600" height="400"><br> 
 </div>
@@ -55,7 +60,9 @@ This project implements a **Smart Multi-Outlet** power strip, enabling multiple 
 
 ## PCB & Assembly
 
-*(Insert image of PCB layout or assembled board here)*  
+<div align="center">
+  <img src="images/assembled.png" alt="Top view of the custom controller board" width="600" height="400"><br> 
+</div> 
 &nbsp;
 
 ---
@@ -67,7 +74,9 @@ This project implements a **Smart Multi-Outlet** power strip, enabling multiple 
 - Fault protection tested using simulated overloads
 - Stability confirmed across extended operation
 
-*(Insert photo(s) of test setup and equipment here)*  
+<div align="center">
+  <img src="images/testciecuit.png" alt="Top view of the custom controller board" width="600" height="400"><br> 
+</div> 
 &nbsp;
 
 ---
@@ -81,14 +90,6 @@ This project implements a **Smart Multi-Outlet** power strip, enabling multiple 
 
 ---
 
-## Future Improvements
-
-- Integrate Wi-Fi/Bluetooth for app-based remote management
-- Add energy usage monitoring per outlet
-- Easy enclosure with improved user safety features
-- Cloud connectivity for IoT dashboards
-
----
 
 ## Credits
 
