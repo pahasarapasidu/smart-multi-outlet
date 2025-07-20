@@ -52,8 +52,16 @@ This project aims to improve energy efficiency, safety, and convenience in both 
 ---
 
 ## Circuit Diagram
+Primary Circuit Test
+<div align="center">
+  <img src="images/testciecuit.png" alt="Top view of the custom controller board" width="600" height="400"><br> 
+</div> 
 
-*(Insert main schematic/circuit diagram image here)*  
+Schematics
+<div align="center">
+  <img src="images/sch.png" alt="Top view of the custom controller board" width="600" height="400"><br> 
+</div> 
+
 &nbsp;
 
 ---
@@ -63,21 +71,35 @@ This project aims to improve energy efficiency, safety, and convenience in both 
 <div align="center">
   <img src="images/assembled.png" alt="Top view of the custom controller board" width="600" height="400"><br> 
 </div> 
+
+Each outlet is controlled through an isolated relay, driven by the microcontroller. 
+Current sensors are placed inline with each outlet to monitor the current consumption. Overload protection logic is implemented via software thresholds.
+
 &nbsp;
 
 ---
 
 ## Testing
 
+<div align="center">
+  <img src="images/finaltest.png" alt="Top view of the custom controller board" width="600" height="400"><br> 
+</div>
+
 - Each channel/outlet tested under rated AC load conditions
 - Verified isolation and safe relay actuation
 - Fault protection tested using simulated overloads
 - Stability confirmed across extended operation
 
-<div align="center">
-  <img src="images/testciecuit.png" alt="Top view of the custom controller board" width="600" height="400"><br> 
-</div> 
+
 &nbsp;
+---
+
+## Final Product
+
+<div align="center">
+  <img src="images/top.png" alt="Top view of the custom controller board" width="600" height="400"><br> 
+</div> 
+
 
 ---
 
@@ -85,16 +107,9 @@ This project aims to improve energy efficiency, safety, and convenience in both 
 
 1. **Connect** the device to an AC mains supply.
 2. **Plug** the appliances/devices into the individual outlets.
-3. **Operate** each switch (manual/remote) to control power delivery to each outlet.
+3. **Operate** each switch (manual/remote) to control power delivery to each outlet and measure power delivary.
 4. **Monitor** status via indicator LEDs for safety and feedback.
 
----
-
-
-## Credits
-
-Circuit design, assembly, and testing:  
-**Jeewantha Sadaruwan**
 
 ---
 
