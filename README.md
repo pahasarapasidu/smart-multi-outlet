@@ -39,8 +39,9 @@ This project implements a **Smart Multi-Outlet** power strip, enabling multiple 
 ---
 
 ## System Diagram
-
-*(Insert block diagram illustration here)*  
+<div align="center">
+  <img src="images/blockdiagram.png" alt="Top view of the custom controller board" width="600" height="400"><br> 
+</div>
 &nbsp;
 
 ---
